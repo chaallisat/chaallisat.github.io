@@ -1,2 +1,2 @@
 # chaallisat.github.io
-This is about me
+This is my portfolio. Changes are currently being made.
