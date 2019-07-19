@@ -1,0 +1,50 @@
+body{
+    background: url("../images/checkers.jpg");
+}
+
+.alerts{
+    padding: 20px;
+    width: auto;
+    margin: auto;
+    background-color: aliceblue;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 15%;
+    margin-right: 20%;
+    text-align: center;
+}
+.col-sm-3{
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+}
+
+.project-box{
+    background-color: aliceblue;
+}
+
+/* Test code */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
