@@ -18,28 +18,43 @@ window.onload = function() {
 //Clear the alert box
 $(".alert").on("click", function(){
     $(".alert").empty();
+    window.location.replace("portfolio.html");
     projects();
+    
 });
 
+$(".taba").on("click", function(){
+  window.open("https://chaallisat.github.io/Train-Scheduler/");
+})
+
+//This fuction is for the displaying of each project
 function projects(){
 
+  //Not working.....will come back later
+
+  
+  //   box.append("Hello");
+  //    $(".container").append(box);
+  const col = $(".col-sm-3");
+  // box.append("Hello");
+  
+  const pNames = ["Project 1", "Expense", "Train"]
+  
+  
+  for (let i = 0; i < pNames.length; i++) {
     const box = $("<div class='project-box'>");
     
-    //   box.append("Hello");
-    //    $(".container").append(box);
-    const col = $("<div class='col-sm-3'>");
-    box.append("Hello");
+    box.text(pNames[i]);
     col.append(box);
-    $(".container").append(box);
-    
-    for (let i = 0; i < col.length; i++) {
-        box.append("Hello");
-    col.append(box);
-    $(".container").append(box);
+     $(".container").append(box);
         
-    }
+  } 
 
 };
+
+function portfolio() {
+  
+}
 
 
 
