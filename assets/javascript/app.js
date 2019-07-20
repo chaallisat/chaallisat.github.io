@@ -23,9 +23,14 @@ $(".alert").on("click", function(){
     
 });
 
-$(".taba").on("click", function(){
+$(".traina").on("click", function(event){
+  event.preventDefault();
   window.open("https://chaallisat.github.io/Train-Scheduler/");
-})
+});
+$(".trainb").on("click", function(event){
+  event.preventDefault();
+  window.open("https://github.com/chaallisat/Train-Scheduler");
+});
 
 //This fuction is for the displaying of each project
 function projects(){

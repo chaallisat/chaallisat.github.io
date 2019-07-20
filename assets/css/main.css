@@ -1,5 +1,5 @@
 body{
-    background: url("../images/checkers.jpg");
+    background: url("../images/stars.jpg");
 }
 
 .alerts{
@@ -82,4 +82,21 @@ body{
   
   button:hover, a:hover {
     opacity: 0.7;
+  }
+
+  .my-info{
+    margin: 4%;
+    padding: 3%;
+  }
+  .name {
+      color: white;
+      font-size: 48px;
+      text-shadow: 2px 2px 4px #000000;
+  }
+
+  .fa, .fas{
+    font-size: 1.5em;
+    color: whitesmoke;
+    float: right;
+    padding: 10px;
   }
