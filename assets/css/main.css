@@ -6,7 +6,7 @@ body{
     padding: 20px;
     width: auto;
     margin: auto;
-    background-color: aliceblue;
+    background-color: ghostwhite;
     margin-top: 20%;
     margin-bottom: 20%;
     margin-left: 15%;
@@ -20,12 +20,12 @@ body{
 }
 
 .project-box{
-    background-color: aliceblue;
+    background-color: azure;
 }
 
 /* Test code */
 .collapsible {
-    background-color: #eee;
+    background-color: ghostwhite;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -107,4 +107,14 @@ body{
     color: whitesmoke;
     float: right;
     padding: 10px;
+  }
+  .box{
+    background-color: aliceblue;
+    margin: auto;
+    width: 80%;
+
+    box-shadow: 8px 8px 24px gray;
+  }
+  section{
+    padding: 20px;
   }
