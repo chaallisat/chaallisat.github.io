@@ -23,6 +23,7 @@ $(".alert").on("click", function(){
     
 });
 
+//Links for train project
 $(".traina").on("click", function(event){
   event.preventDefault();
   window.open("https://chaallisat.github.io/Train-Scheduler/");
@@ -32,43 +33,35 @@ $(".trainb").on("click", function(event){
   window.open("https://github.com/chaallisat/Train-Scheduler");
 });
 
-//This fuction is for the displaying of each project
-function projects(){
+//Links for Expense
+$(".exa").on("click", function(event){
+  event.preventDefault();
+  window.open("https://chaallisat.github.io/expense/");
+});
+$(".exb").on("click", function(event){
+  event.preventDefault();
+  window.open("https://github.com/chaallisat/expense");
+});
 
-  //Not working.....will come back later
+//Links for picnic planner
+$(".ppa").on("click", function(event){
+  event.preventDefault();
+  window.open("https://chaallisat.github.io/Project-One/");
+});
+$(".ppb").on("click", function(event){
+  event.preventDefault();
+  window.open("https://github.com/chaallisat/Project-One.git");
+});
 
-  
-  //   box.append("Hello");
-  //    $(".container").append(box);
-  const col = $(".col-sm-3");
-  // box.append("Hello");
-  
-  const pNames = ["Project 1", "Expense", "Train"]
-  
-  
-  for (let i = 0; i < pNames.length; i++) {
-    const box = $("<div class='project-box'>");
-    
-    box.text(pNames[i]);
-    col.append(box);
-     $(".container").append(box);
-        
-  } 
-
-};
-
-function portfolio() {
-  
-}
-
-
-
-
-
-
-
-
-
+//Links for crystal game
+$(".crystala").on("click", function(event){
+  event.preventDefault();
+  window.open("https://chaallisat.github.io/unit-4-game/");
+});
+$(".crystalb").on("click", function(event){
+  event.preventDefault();
+  window.open("https://github.com/chaallisat/unit-4-game.git");
+});
 
 
 //Collapsible JS

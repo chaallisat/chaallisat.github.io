@@ -19,9 +19,9 @@ body{
     padding: 20px;
 }
 
-.project-box{
+/* .project-box{
     background-color: azure;
-}
+} */
 
 /* Test code */
 .collapsible {
@@ -46,7 +46,6 @@ body{
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
   }
 
   .card {
