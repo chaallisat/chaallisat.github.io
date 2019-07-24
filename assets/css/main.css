@@ -31,8 +31,9 @@ background-color: lightskyblue;
   padding-bottom: 75px;
 }
 
+/* Project Cards */
 .collapsible {
-  background-color: ghostwhite;
+  background-color: lightblue;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -44,8 +45,8 @@ background-color: lightskyblue;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: #ccc;
+.actives, .collapsible:hover {
+  background-color: azure;
 }
 
 /* Style the collapsible content. Note: hidden by default */
