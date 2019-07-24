@@ -1,0 +1,120 @@
+body{
+    background: url("../images/giphy.gif");
+}
+
+.alerts{
+    padding: 20px;
+    width: auto;
+    margin: auto;
+    background-color: ghostwhite;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 15%;
+    margin-right: 20%;
+    text-align: center;
+}
+.col-sm-3{
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* .project-box{
+    background-color: azure;
+} */
+
+/* Test code */
+.collapsible {
+    background-color: ghostwhite;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  /* Style the header */
+  .my-info{
+    margin: 4%;
+    padding: 3%;
+  }
+  
+  /* Shadow for my name in header */
+  .name {
+      color: whitesmoke;
+      font-size: 48px;
+      text-shadow: 2px 2px 4px blue;
+      text-align: center;
+  }
+
+  .collapsible{
+    box-shadow: 2px 2px 4px violet
+  }
+
+  .fa, .fas{
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px violet;
+    color: whitesmoke;
+    float: right;
+    padding: 10px;
+  }
+  .box{
+    background-color: aliceblue;
+    margin: auto;
+    width: 80%;
+
+    box-shadow: 8px 8px 24px gray;
+  }
+  section{
+    padding: 20px;
+  }

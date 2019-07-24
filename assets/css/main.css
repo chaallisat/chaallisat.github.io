@@ -1,119 +1,111 @@
-body{
-    background: url("../images/giphy.gif");
+nav, .navbar-light, .bg-light{
+  /* background-color: #1e9bd4; */
+background-color: lightskyblue;
 }
 
-.alerts{
-    padding: 20px;
-    width: auto;
-    margin: auto;
-    background-color: ghostwhite;
-    margin-top: 20%;
-    margin-bottom: 20%;
-    margin-left: 15%;
-    margin-right: 20%;
-    text-align: center;
+/* First box */
+.containers{
+  /* width: 80%; */
+  margin: auto;
 }
-.col-sm-3{
-    width: auto;
-    margin: 20px;
-    padding: 20px;
+.box1{
+  /* background-color: #23b2f5; */
+  background-color:lightblue;
+  padding: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 24px;
+}
+.image{
+  float: left;
+  width: 15%;
+  height: 20%;
+  margin-right: 20px;
+  padding-left: 50px;
 }
 
-/* .project-box{
-    background-color: azure;
-} */
+/* Second Box */
+.box2{
+  background-color: white;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 24px;
+}
 
-/* Test code */
 .collapsible {
-    background-color: ghostwhite;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .collapsible:hover {
-    background-color: #ccc;
-  }
-  
-  /* Style the collapsible content. Note: hidden by default */
-  .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-  }
+  background-color: ghostwhite;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
 
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* max-width: 300px; */
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.pro {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+h3, h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eeeeee;
+}
+.fa, .fas{
+  font-size: 1.5em;
+  text-shadow: 2px 2px 4px violet;
+  color: black;
+  /* background-color: yellow; */
+  float: right;
+  padding: 10px;
+  /* width: 30px;
+  height: 30px; */
+}
+.me{
+  font-style: italic;
+  font-family: "Pacifico", cursive;
+  text-shadow: 2px 2px 4px whitesmoke;
+}
+
+   /* footer */
+    
+   footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
     text-align: center;
-  }
-  
-  .title {
-    color: grey;
-    font-size: 18px;
-  }
-  
-  button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-  a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-  }
-  
-  button:hover, a:hover {
-    opacity: 0.7;
-  }
-
-  /* Style the header */
-  .my-info{
-    margin: 4%;
-    padding: 3%;
-  }
-  
-  /* Shadow for my name in header */
-  .name {
-      color: whitesmoke;
-      font-size: 48px;
-      text-shadow: 2px 2px 4px blue;
-  }
-
-  .collapsible{
-    box-shadow: 2px 2px 4px violet
-  }
-
-  .fa, .fas{
-    font-size: 1.5em;
-    text-shadow: 2px 2px 4px violet;
-    color: whitesmoke;
-    float: right;
-    padding: 10px;
-  }
-  .box{
-    background-color: aliceblue;
-    margin: auto;
-    width: 80%;
-
-    box-shadow: 8px 8px 24px gray;
-  }
-  section{
-    padding: 20px;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
   }
