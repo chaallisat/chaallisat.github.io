@@ -31,6 +31,13 @@ background-color: lightskyblue;
   padding-bottom: 75px;
 }
 
+.box3{
+  background-color: white;
+  padding: 20px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
 /* Project Cards */
 .collapsible {
   background-color: lightblue;
