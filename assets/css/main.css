@@ -12,8 +12,7 @@ background-color: lightskyblue;
   /* background-color: #23b2f5; */
   background-color:lightblue;
   padding: 20px;
-  padding-bottom: 50px;
-  margin-bottom: 24px;
+  padding-bottom: 75px;
 }
 .image{
   float: left;
@@ -25,11 +24,11 @@ background-color: lightskyblue;
 
 /* Second Box */
 .box2{
+  /* background-image: url("../images/checkers.jpg"); */
   background-color: white;
   padding: 20px;
   padding-top: 50px;
-  padding-bottom: 50px;
-  margin-bottom: 24px;
+  padding-bottom: 75px;
 }
 
 .collapsible {
