@@ -39,11 +39,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home </a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="portfolio.html">Projects <span class="sr-only">(current)</span></a>
-                    </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact </a>
+                        <a class="nav-link" href="portfolio.html">Projects </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -62,19 +62,36 @@
 
     <body>
 
-            <div id="main-container" class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h3 class="card-title">Contact</h3>
+                        <h6 class="card-subtitle mb-2 text-muted">IDK</h6>
+                        <p class="card-text">Any questions or comments? Please contact me with the information below.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-7">
+                <div id="main-container" class="containers">
                     <section class="main-section">
                         <h1>Contact</h1>
-            
+
                         <form id="contact-form">
                             <ul>
                                 <li>
                                     <label for="name">Name</label>
-                                    <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                                    <input type="text" id="name" name="name" placeholder="John Smith"
+                                        required="required">
                                 </li>
                                 <li>
                                     <label for="email">Email</label>
-                                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                                    <input type="email" id="email" name="email" placeholder="example@gmail.com"
+                                        required="required">
                                 </li>
                                 <li>
                                     <label for="message">Message</label>
@@ -83,9 +100,12 @@
                             </ul>
                             <input type="submit">
                         </form>
-            
+
                     </section>
                 </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
 
         <footer>
             <div class="container">

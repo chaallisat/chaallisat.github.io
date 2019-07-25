@@ -18,6 +18,7 @@ nav, .navbar-light, .bg-light{
 .containers{
   /* width: 80%; */
   margin: auto;
+  min-height: calc(89vh - 70px);
 }
 .box1{
   /* background-color: #23b2f5; */
@@ -183,4 +184,13 @@ h3, h2 {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+  }
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
   }
