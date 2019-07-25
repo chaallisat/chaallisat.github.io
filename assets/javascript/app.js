@@ -79,3 +79,23 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+const myEmail = "chaallisat@yahoo.com";
+const eName = $("#name").val().trim();
+const email = $("#email").val().trim();
+const eMessage = $("#message").val().trim();
+
+function generateEmail() {
+  const emailTo = myEmail;
+  const emailCC = email;
+  const emailSubject = "Portfolio - Contact Form";
+  const emailBody = "Name: " + eName + "%0A%0AEmail: " + email + "%0A%0AMessage: " + eMessage;
+  location.href = "mailto:" + emailTo + "?" + 
+    (emailCC ? "cc=" + emailCC : "") + 
+    (emailSubject ? "&subject=" + emailSubject : "") + 
+    (emailBody ? "&body=" + emailBody : "");
+};
+
+$("#submit").on("click", function(){
+  generateEmail();
+});
