@@ -1,5 +1,7 @@
 body{
-  /* background-image: url("../images/checkers.jpg");   */
+  background-image: url("../images/blue-star-sky.jpg");
+  background-size: cover;
+  background-position: top;  
   background-color: skyblue;
 }
 
@@ -111,8 +113,8 @@ nav, .navbar-light, .bg-light{
 }
 
 
-.pro {
-=======
+/* .pro { */
+
 button {
   border: none;
   outline: 0;
