@@ -4,22 +4,128 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>ChaA'llisa | Portfolio</title>
+  <title>Home | ChaA'llisa</title>
 
       <!-- Add Bootstrap Link -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+      <!-- Icon Link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Courgette|Lobster|Pacifico&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
 
-  <div class="alert"></div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+          
+            <!-- My name in the Navbar -->
+            <a class="navbar-brand" href="index.html"><h1 class="me">ChaA'llisa Taylor</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Links to other pages in site -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact </a>
+                  </li>
+              </ul>
+            </div>
 
-<!-- Test Code -->
-  <!-- <button class="collapsible">Open Collapsible</button> -->
-<!-- <div class="content"> -->
-  <!-- <p>Lorem ipsum...</p> -->
-<!-- </div> -->
+                  <!-- These are the links and icons -->
+                  <a class="navbar-brand" onclick=" window.open('https://www.linkedin.com/in/chaa-llisa-taylor-50bba5183/','_blank')"><i class="fa fa-linkedin"></i></a>
+                  <a class="navbar-brand" onclick=" window.open('https://github.com/chaallisat','_blank')"><i class="fa fa-github"></i></a>
+                  <a class="navbar-brand" onclick=" window.open('assets/other/Code_resume.pdf','_blank')"><i class="fas fa-sticky-note"></i></a>
+   
+          </nav>
+</header>
+
+<!-- First Box with About me section -->
+<div class="containers">
+  <div class="box1">
+<article>
+  <img class="image" src="assets/images/checkers.jpg" alt="me">
+  <h1 class="me about">About Me</h1>
+  <p class="about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque cumque obcaecati harum omnis aut deleniti praesentium atque nemo necessitatibus distinctio pariatur ea aliquid reiciendis, dolor, sit perferendis soluta minus! Fugit!</p>
+</article>
+
+  </div>
+
+
+
+<!-- Second Box with skill cards -->
+<div class="box2">
+
+  <div class="row">
+
+<div class="col-sm-1"></div>
+
+<!-- First Card -->
+<div class="col-sm-2">
+    <div class="card">
+        <h5 class="card-header">Frontend</h5>
+        <div class="card-body">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript/jQuery</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+</div>
+
+<div class="col-sm-2"></div>
+
+<!-- Second Card -->
+<div class="col-sm-2">
+    <div class="card">
+        <h5 class="card-header">Backend</h5>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+</div>
+
+<div class="col-sm-2"></div>
+
+<!-- Third Card -->
+<div class="col-sm-2">
+    <div class="card">
+        <h5 class="card-header">Special Features</h5>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+</div>
+
+<div class="col-sm-1"></div>
+
+</div>
+
+</div>
+</div>
+
+<footer>
+  <div class="container">
+      Copyright &copy;
+  </div>
+</footer>
   
   <script src="https://code.jquery.com/jquery.js"></script>
 <script src="assets/javascript/app.js"></script>
