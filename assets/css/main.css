@@ -10,6 +10,9 @@ nav, .navbar-light, .bg-light{
   background-color: none;
 }
 
+.nav-link{
+  text-shadow: .5px .5px 2px whitesmoke;  
+}
 .me{
   font-style: italic;
   font-family: "Pacifico", cursive;
