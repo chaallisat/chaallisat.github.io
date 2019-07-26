@@ -81,9 +81,9 @@ for (i = 0; i < coll.length; i++) {
 }
 
 const myEmail = "chaallisat@yahoo.com";
-const eName = $("#name").val().trim();
-const email = $("#email").val().trim();
-const eMessage = $("#message").val().trim();
+const eName = $("#name").val();
+const email = $("#email").val();
+const eMessage = $("#message").val();
 
 function generateEmail() {
   const emailTo = myEmail;
