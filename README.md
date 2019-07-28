@@ -10,6 +10,7 @@ Version 2.0.3
 ## ======================================
 
 Version 2.0.0
+
 *Changed layout 
 *Added contact page 
 *Contact form does not submit properly
