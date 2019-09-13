@@ -6,10 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Home | ChaA'llisa</title>
 
-  <link rel="stylesheet" href="assets/css/reset.css">
+  <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
 
-      <!-- Add Bootstrap Link -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="assets/materialize/css/materialize.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
       <!-- Icon Link -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -23,60 +28,43 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-          
-            <!-- My name in the Navbar -->
-            <a class="navbar-brand" href="index.html"><h1 class="me">ChaA'llisa Taylor</h1></a>
-            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span> -->
-            </button>
-          
-            <!-- Links to other pages in site -->
-            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact </a>
-                  </li>
-              </ul>
-            </div> -->
+      <nav> <!-- navbar content here  --> </nav>
 
-            <div>
-              <ul>
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact </a>
-                  </li>
-              </ul>
-            </div>
+      <ul id="slide-out" class="sidenav">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="images/office.jpg">
+          </div>
+          <a href="#user"><img class="circle" src="assets/images/giphy.gif"></a>
+          <a href="#name"><span class="white-text name">ChaA'llisa Taylor</span></a>
+          <a href="#email"><span class="white-text email">chaallisat@yahoo.com</span></a>
+        </div></li>
+        <li><a href="https://www.linkedin.com/in/chaa-llisa-taylor-50bba5183/"><i class="material-icons">cloud</i>Linkedin</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+      </ul>
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            
 
                   <!-- These are the links and icons -->
-                  <a class="navbar-brand" onclick=" window.open('https://www.linkedin.com/in/chaa-llisa-taylor-50bba5183/','_blank')"><i class="fa fa-linkedin"></i></a>
+                  <!-- <a class="navbar-brand" onclick=" window.open('https://www.linkedin.com/in/chaa-llisa-taylor-50bba5183/','_blank')"><i class="fa fa-linkedin"></i></a>
                   <a class="navbar-brand" onclick=" window.open('https://github.com/chaallisat','_blank')"><i class="fa fa-github"></i></a>
-                  <a class="navbar-brand" onclick=" window.open('assets/other/Code_resume.pdf','_blank')"><i class="fas fa-sticky-note"></i></a>
+                  <a class="navbar-brand" onclick=" window.open('assets/other/Code_resume.pdf','_blank')"><i class="fas fa-sticky-note"></i></a> -->
    
-          </nav>
 </header>
 
 <div class="containers">
 
-  <!-- Make this section a colorful circle -->
-  <div class="round">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ipsum iste facere modi dolor earum nemo magnam quia cumque illo dicta nobis tempora rerum voluptatem aliquam magni, reiciendis quibusdam porro!</div>
+  <!-- Row Div -->
+  <div class="row">
 
-  <!-- Make this section go straight across with a cool design
-      Try to make it into a scroll thingy -->
-  <div class="block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem optio sit at cum quod dignissimos. Facilis, sequi necessitatibus in consequatur iusto dolor fugit, ut qui dignissimos libero ea repellendus odit molestiae. Aliquam voluptate veniam, voluptatum harum delectus dolorum laboriosam maiores suscipit velit totam tempore eius ex, explicabo, adipisci neque? Praesentium.</div>
+    <div class="col s2 offset-s1">Pic Div</div>
+    <div class="col s8 offset-s1">Info on project</div>
 
+    <!-- End of Rov Div -->
+  </div>
 
 
   <!-- End of containers div -->
@@ -91,6 +79,6 @@
   
   <script src="https://code.jquery.com/jquery.js"></script>
 <script src="assets/javascript/app.js"></script>
-
+<script type="text/javascript" src="assets/materialize/js/materialize.js"></script>
 </body>
 </html>
