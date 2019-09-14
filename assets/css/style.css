@@ -7,6 +7,10 @@ body{
     min-height: calc(100vh - 23vh);
 }
 
+nav{
+    background: skyblue;
+}
+
 footer {
     padding: 30px 0;
     clear: both;
