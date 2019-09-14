@@ -1,6 +1,7 @@
 
 body{
     min-height: 100vh;
+    /* background: radial-gradient(transparent, skyblue, transparent); */
 }
 .containers{
     margin: auto;
@@ -11,7 +12,7 @@ nav{
     background: skyblue;
 }
 
-footer {
+/* footer {
     padding: 30px 0;
     clear: both;
     font-size: 12px;
@@ -19,5 +20,19 @@ footer {
     text-align: center;
     background: #b4c2d4;
     border-top: 8px solid #013046;
-    height: 50px;
+    height: 50px; 
+    background: skyblue;
+  } */
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  .page-footer{
+      background: skyblue;
   }

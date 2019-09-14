@@ -18,17 +18,29 @@ window.onload = function() {
 // Materialize sideNavBar JS
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.sidenav');
-  // var instances = M.Sidenav.init(elems, options);
 });
-
 $(document).ready(function(){
   $('.sidenav').sidenav();
 });
-
 $(".sidenav-trigger").on("click", function(event) {
   var instance = M.Sidenav.getInstance(elems);
   instance.open();
 });
+
+// Materialize Slideshow box
+
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.carousel');
+  // var instances = M.Carousel.init(elems, options);
+  var instance = M.Carousel.init({
+    fullWidth: true,
+    numVisible: 4
+  });
+  var instance = M.Carousel.getInstance(elems);
+  // instance.next();
+});
+
+      
 
 //Clear the alert box
 $(".alert").on("click", function(){
