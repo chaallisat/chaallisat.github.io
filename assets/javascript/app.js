@@ -15,6 +15,21 @@ window.onload = function() {
     $(".alert").append(alertDiv);
 };
 
+// Materialize sideNavBar JS
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems, options);
+});
+
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+
+$(".sidenav-trigger").on("click", function(event) {
+  var instance = M.Sidenav.getInstance(elem);
+  instance.open();
+});
+
 //Clear the alert box
 $(".alert").on("click", function(){
     $(".alert").empty();
@@ -80,22 +95,22 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-const myEmail = "chaallisat@yahoo.com";
-const eName = $("#name").val().trim();
-const email = $("#email").val().trim();
-const eMessage = $("#message").val().trim();
+// const myEmail = "chaallisat@yahoo.com";
+// const eName = $("#name").val().trim();
+// const email = $("#email").val().trim();
+// const eMessage = $("#message").val().trim();
 
-function generateEmail() {
-  const emailTo = myEmail;
-  const emailCC = email;
-  const emailSubject = "Portfolio - Contact Form";
-  const emailBody = "Name: " + eName + "%0A%0AEmail: " + email + "%0A%0AMessage: " + eMessage;
-  location.href = "mailto:" + emailTo + "?" + 
-    (emailCC ? "cc=" + emailCC : "") + 
-    (emailSubject ? "&subject=" + emailSubject : "") + 
-    (emailBody ? "&body=" + emailBody : "");
-};
+// function generateEmail() {
+//   const emailTo = myEmail;
+//   const emailCC = email;
+//   const emailSubject = "Portfolio - Contact Form";
+//   const emailBody = "Name: " + eName + "%0A%0AEmail: " + email + "%0A%0AMessage: " + eMessage;
+//   location.href = "mailto:" + emailTo + "?" + 
+//     (emailCC ? "cc=" + emailCC : "") + 
+//     (emailSubject ? "&subject=" + emailSubject : "") + 
+//     (emailBody ? "&body=" + emailBody : "");
+// };
 
-$("#submit").on("click", function(){
-  generateEmail();
-});
+// $("#submit").on("click", function(){
+//   generateEmail();
+// });
