@@ -36,3 +36,30 @@ nav{
   .page-footer{
       background: skyblue;
   }
+
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+  .fa, .fas{
+    font-size: 20px;
+    align-items: inherit;
+    text-shadow: 2px 2px 4px white;
+    color: black;
+    /* background-color: yellow; */
+    float: right;
+    padding: 10px;
+    /* width: 30px;
+    height: 30px; */
+  }
+
+  /* .me{
+    vertical-align: text-top;
+    text-align: left;
+    font-style: italic;
+    font-family: "Pacifico", cursive;
+    text-shadow: 2px 2px 4px whitesmoke;
+    font-size: 24px;
+    color: black;
+  } */
