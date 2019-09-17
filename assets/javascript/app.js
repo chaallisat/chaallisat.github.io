@@ -11,9 +11,16 @@ $(".sidenav-trigger").on("click", function(event) {
   instance.open();
 });
 
-// Materialize Slideshow box
-
-
+// Materialize Parallax
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.parallax');
+  // var instances = M.Parallax.init(elems, options);
+});
+$(document).ready(function(){
+  $('.parallax').parallax();
+  var instance = M.Parallax.getInstance(elems);
+});
+      
       
 
 //Clear the alert box
