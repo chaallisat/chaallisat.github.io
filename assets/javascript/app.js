@@ -1,19 +1,3 @@
-window.onload = function() {
-    //Create divs
-    const welcome = $("<h1>").text("Welcome!");
-    const name = $("<h2>").text("My name is ChaA'llisa Taylor");
-    const bacon = $("<p>").text("Click anywhere to continue to the site.");
-
-    //This div will hold everything
-    const alertDiv = $("<div class='alerts'>")
-
-    alertDiv.append(welcome);
-    alertDiv.append(name);
-    alertDiv.append(bacon);
-
-    //Append the other divs to the alert div
-    $(".alert").append(alertDiv);
-};
 
 // Materialize sideNavBar JS
 document.addEventListener('DOMContentLoaded', function() {
@@ -29,16 +13,6 @@ $(".sidenav-trigger").on("click", function(event) {
 
 // Materialize Slideshow box
 
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.carousel');
-  // var instances = M.Carousel.init(elems, options);
-  var instance = M.Carousel.init({
-    fullWidth: true,
-    numVisible: 4
-  });
-  var instance = M.Carousel.getInstance(elems);
-  // instance.next();
-});
 
       
 
@@ -106,23 +80,3 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
-
-// const myEmail = "chaallisat@yahoo.com";
-// const eName = $("#name").val().trim();
-// const email = $("#email").val().trim();
-// const eMessage = $("#message").val().trim();
-
-// function generateEmail() {
-//   const emailTo = myEmail;
-//   const emailCC = email;
-//   const emailSubject = "Portfolio - Contact Form";
-//   const emailBody = "Name: " + eName + "%0A%0AEmail: " + email + "%0A%0AMessage: " + eMessage;
-//   location.href = "mailto:" + emailTo + "?" + 
-//     (emailCC ? "cc=" + emailCC : "") + 
-//     (emailSubject ? "&subject=" + emailSubject : "") + 
-//     (emailBody ? "&body=" + emailBody : "");
-// };
-
-// $("#submit").on("click", function(){
-//   generateEmail();
-// });
