@@ -1,0 +1,75 @@
+
+body{
+    min-height: 100vh;
+    /* background: radial-gradient(transparent, skyblue, transparent); */
+}
+.containers{
+    margin: auto;
+    min-height: calc(100vh - 23vh);
+}
+
+nav{
+    background: skyblue;
+    background-image: url("https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?cs=srgb&dl=black-and-white-cold-fog-235621.jpg&fm=jpg");
+}
+
+.test{
+  background-image: url("https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?cs=srgb&dl=colorful-colourful-forest-33109.jpg&fm=jpg");
+}
+
+/* footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #020202;
+    text-align: center;
+    background: #b4c2d4;
+    border-top: 8px solid #013046;
+    height: 50px; 
+    background: skyblue;
+  } */
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  .page-footer{
+      background: #f57c00;
+  }
+
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+  .fa, .fas{
+    font-size: 20px;
+    align-items: inherit;
+    text-shadow: 2px 2px 4px white;
+    color: black;
+    /* background-color: yellow; */
+    float: right;
+    padding: 10px;
+    /* width: 30px;
+    height: 30px; */
+  }
+
+  .me{
+    /* vertical-align: text-top; */
+    /* text-align: left; */
+    font-style: italic;
+    font-family: "Pacifico", cursive;
+    text-shadow: 4px 4px 8px black;
+    /* font-size: 24px; */
+  }
+
+  .season{
+    font-family: "Pacifico", cursive;
+    font-style: italic;
+    color: #f57c00;
+  }

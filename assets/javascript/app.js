@@ -1,19 +1,27 @@
-window.onload = function() {
-    //Create divs
-    const welcome = $("<h1>").text("Welcome!");
-    const name = $("<h2>").text("My name is ChaA'llisa Taylor");
-    const bacon = $("<p>").text("Click anywhere to continue to the site.");
 
-    //This div will hold everything
-    const alertDiv = $("<div class='alerts'>")
+// Materialize sideNavBar JS
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+});
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+$(".sidenav-trigger").on("click", function(event) {
+  var instance = M.Sidenav.getInstance(elems);
+  instance.open();
+});
 
-    alertDiv.append(welcome);
-    alertDiv.append(name);
-    alertDiv.append(bacon);
-
-    //Append the other divs to the alert div
-    $(".alert").append(alertDiv);
-};
+// Materialize Parallax
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.parallax');
+  // var instances = M.Parallax.init(elems, options);
+});
+$(document).ready(function(){
+  $('.parallax').parallax();
+  var instance = M.Parallax.getInstance(elems);
+});
+      
+      
 
 //Clear the alert box
 $(".alert").on("click", function(){
@@ -79,23 +87,3 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
-
-const myEmail = "chaallisat@yahoo.com";
-const eName = $("#name").val();
-const email = $("#email").val();
-const eMessage = $("#message").val();
-
-function generateEmail() {
-  const emailTo = myEmail;
-  const emailCC = email;
-  const emailSubject = "Portfolio - Contact Form";
-  const emailBody = "Name: " + eName + "%0A%0AEmail: " + email + "%0A%0AMessage: " + eMessage;
-  location.href = "mailto:" + emailTo + "?" + 
-    (emailCC ? "cc=" + emailCC : "") + 
-    (emailSubject ? "&subject=" + emailSubject : "") + 
-    (emailBody ? "&body=" + emailBody : "");
-};
-
-$("#submit").on("click", function(){
-  generateEmail();
-});
