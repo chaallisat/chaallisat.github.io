@@ -9,12 +9,12 @@ body{
 }
 
 nav{
-    background: skyblue;
+    /* background: skyblue; */
     background-image: url("https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?cs=srgb&dl=black-and-white-cold-fog-235621.jpg&fm=jpg");
 }
 
 .test{
-  background-image: url("https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?cs=srgb&dl=colorful-colourful-forest-33109.jpg&fm=jpg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR6udZjJ4gF6Qyj3GfLYvE9j3IcOMUT2zm42tiCL8mawri_gBCVQ");
 }
 
 /* footer {
@@ -39,7 +39,7 @@ nav{
     flex: 1 0 auto;
   }
   .page-footer{
-      background: #f57c00;
+      background: #81c784;
   }
 
   .title {
@@ -71,9 +71,5 @@ nav{
   .season{
     font-family: "Pacifico", cursive;
     font-style: italic;
-<<<<<<< HEAD
-    color: #40c4ff;
-=======
-    color: #f57c00;
->>>>>>> 747cd6a91ef3863c24e454bd6ef80bdc14b3bacc
+    color: #81c784;
   }
