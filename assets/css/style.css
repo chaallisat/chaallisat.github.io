@@ -10,6 +10,11 @@ body{
 
 nav{
     background: skyblue;
+    background-image: url("https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?cs=srgb&dl=black-and-white-cold-fog-235621.jpg&fm=jpg");
+}
+
+.test{
+  background-image: url("https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?cs=srgb&dl=black-and-white-cold-fog-235621.jpg&fm=jpg");
 }
 
 /* footer {
@@ -54,12 +59,16 @@ nav{
     height: 30px; */
   }
 
-  /* .me{
-    vertical-align: text-top;
-    text-align: left;
+  .me{
+    /* vertical-align: text-top; */
+    /* text-align: left; */
     font-style: italic;
     font-family: "Pacifico", cursive;
-    text-shadow: 2px 2px 4px whitesmoke;
-    font-size: 24px;
-    color: black;
-  } */
+    text-shadow: 4px 4px 8px black;
+    /* font-size: 24px; */
+  }
+
+  .season{
+    font-family: "Pacifico", cursive;
+    font-style: italic;
+  }
