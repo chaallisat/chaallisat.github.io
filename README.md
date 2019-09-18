@@ -7,6 +7,7 @@ https://chaallisat.github.io/
 Version 2.1.3
 
 *Changed site layout*
+
 *Added seasons*
 ## ==========================================
 
