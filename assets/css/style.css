@@ -71,5 +71,10 @@ nav{
   .season{
     font-family: "Pacifico", cursive;
     font-style: italic;
-    color: #f57c00;
+    color: #40c4ff;
   }
+
+.links {
+  color: white;
+}
+
