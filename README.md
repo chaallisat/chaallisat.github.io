@@ -1,6 +1,11 @@
 # chaallisat.github.io
 
 https://chaallisat.github.io/
+
+npm install
+npm run dev
+
+
 ## ==========================================
 
 Version 2.0.3

@@ -1,0 +1,28 @@
+{
+  "name": "chaallisat.github.io",
+  "version": "1.0.0",
+  "description": "https://chaallisat.github.io/ ## ==========================================",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaallisat/chaallisat.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaallisat/chaallisat.github.io/issues"
+  },
+  "homepage": "https://github.com/chaallisat/chaallisat.github.io#readme",
+  "dependencies": {
+    "next": "^9.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "swr": "^0.1.16"
+  }
+}
