@@ -27,9 +27,40 @@ function spring() {
   const header = $("#seasonHeader");
   header.append("Test Header");
   header.css("color", "pink")
+
+  const season = $(".season");
+  season.css({
+    "color": "pink",
+    "font-style": "italic",
+    "font-family": "Pacifico, cursive"
+  })
+
+  const img = "https://live.staticflickr.com/1552/26472222651_3710758ffe_b.jpg";
+  const image = $(".seasonImg");
+  image.attr("src", img);
+  
 }
 
 spring();
+// winter();
+
+function winter() {
+  const header = $("#seasonHeader");
+  header.append("Happy Holidays!");
+  header.css("color", "#40c4ff")
+
+  const img = "https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?cs=srgb&dl=black-and-white-cold-fog-235621.jpg&fm=jpg";
+  const image = $(".seasonImg");
+  image.attr("src", img);
+
+  const season = $(".season");
+  season.css({
+    "color": "#40c4ff",
+    "font-style": "italic",
+    "font-family": "Pacifico, cursive"
+  })
+
+}
 
 //Collapsible JS
 const coll = $(".collapsible");
