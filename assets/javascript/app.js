@@ -26,34 +26,34 @@ $(document).ready(function(){
 function spring() {
   const header = $("#seasonHeader");
   header.append("Test Header");
-  header.css("color", "pink")
+  header.css("color", "#81c784")
 
   const season = $(".season");
   season.css({
-    "color": "pink",
+    "color": "#81c784",
     "font-style": "italic",
     "font-family": "Pacifico, cursive"
   })
 
   const img = "https://live.staticflickr.com/1552/26472222651_3710758ffe_b.jpg";
-  const image = $(".seasonImg");
-  image.attr("src", img);
+  $(".seasonImg").attr("src", img);
 
   // $(".test").attr("src", img);
-  const navImg =""
-  const bkimg = ""
-  $("#bk-img").attr("src", img);
+  const bttmImg = "https://live.staticflickr.com/1552/26472222651_3710758ffe_b.jpg"
+  const navImg ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR6udZjJ4gF6Qyj3GfLYvE9j3IcOMUT2zm42tiCL8mawri_gBCVQ"
+  const bkImg = "http://c1.peakpx.com/wallpaper/1014/607/656/meadow-flowers-plant-tulips-spring-wallpaper-preview.jpg";
+  $("#bk-img").attr("src", bkImg);
+  $(".bttm-img").attr("src", bttmImg);
   
-  $(".page-footer").css("background", "lightgreen")
-  $("nav").css({
-    "background": "black",
-  })
+  $(".page-footer").css("background", "#81c784")
+  $("nav").css({"background": "black"})
   $(".test").css({
-    "background-image": `url(${img})`
+    "background-image": `url(${navImg})`
   })
-  $("#season-color").addClass("orange")
-  $("#season-color1").addClass("yellow")
+  $("#season-color").addClass("green")
+  $("#season-color1").addClass("green")
   $("#js-btn-color").addClass("green")
+  $("#js-btn-color").addClass("lighten-2")
 }
 
 spring();
@@ -80,6 +80,39 @@ function winter() {
     "font-family": "Pacifico, cursive"
   })
 
+}
+
+function fall() {
+  const header = $("#seasonHeader");
+  header.append("Test Header");
+  header.css("color", "#81c784")
+
+  const season = $(".season");
+  season.css({
+    "color": "#81c784",
+    "font-style": "italic",
+    "font-family": "Pacifico, cursive"
+  })
+
+  const img = "https://live.staticflickr.com/1552/26472222651_3710758ffe_b.jpg";
+  $(".seasonImg").attr("src", img);
+
+  // $(".test").attr("src", img);
+  const bttmImg = "https://live.staticflickr.com/1552/26472222651_3710758ffe_b.jpg"
+  const navImg ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR6udZjJ4gF6Qyj3GfLYvE9j3IcOMUT2zm42tiCL8mawri_gBCVQ"
+  const bkImg = "http://c1.peakpx.com/wallpaper/1014/607/656/meadow-flowers-plant-tulips-spring-wallpaper-preview.jpg";
+  $("#bk-img").attr("src", bkImg);
+  $(".bttm-img").attr("src", bttmImg);
+  
+  $(".page-footer").css("background", "#81c784")
+  $("nav").css({"background": "black"})
+  $(".test").css({
+    "background-image": `url(${navImg})`
+  })
+  $("#season-color").addClass("green")
+  $("#season-color1").addClass("green")
+  $("#js-btn-color").addClass("green")
+  $("#js-btn-color").addClass("lighten-2")
 }
 
 //Collapsible JS
