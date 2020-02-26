@@ -124,10 +124,86 @@ function fall() {
   $("#js-btn-color").addClass("darken-2")
 }
 
+function summer() {
+  const header = $("#seasonHeader");
+  header.append("Summer Time Fun!");
+  header.css("color", "#07e1b6")
 
-spring();
+  const season = $(".season");
+  season.css({
+    "color": "#07e1b6",
+    "font-style": "italic",
+    "font-family": "Pacifico, cursive"
+  })
+
+  const img = "https://cdn.pixabay.com/photo/2018/07/05/21/47/summer-3519261_960_720.jpg";
+  $(".seasonImg").attr("src", img);
+
+  // $(".test").attr("src", img);
+  const bttmImg = "https://cdn.pixabay.com/photo/2017/03/27/14/49/beach-2179183_960_720.jpg"
+  const navImg ="https://images.pexels.com/photos/2678/nature-sky-sunny-clouds.jpg?cs=srgb&dl=nature-sky-sunny-clouds-2678.jpg&fm=jpg"
+  const bkImg = "https://i2.pickpik.com/photos/801/455/751/sea-shells-shells-sea-sea-shell-preview.jpg";
+  $("#bk-img").attr("src", bkImg);
+  $(".bttm-img").attr("src", bttmImg);
+  
+  $(".page-footer").css("background", "#07e1b6")
+  $("nav").css({"background": "black"})
+  $(".test").css({
+    "background-image": `url(${navImg})`,
+    // "background-position": "center"
+  })
+  $("#season-color").addClass("blue")
+  $("#season-color1").addClass("blue")
+  $("#js-btn-color").addClass("red")
+  $("#js-btn-color").addClass("lighten-2")
+}
+
+function time() {
+  let currentDay = moment()
+  console.log(`CURRENT DAY: ${moment(currentDay).format("MM-DD-YYYY")}`);
+  if (moment().isBetween("2020-02-19", '2020-05-31')) { // 2020-03-01 is original date
+    spring();
+  }
+  else if (moment().isBetween("2020-12-01", '2021-01-31')) {
+    winter();
+  }
+  else if (moment().isBetween("2020-09-01", '2020-11-30')) {
+    fall();
+  }
+  else if (moment().isBetween("2020-06-01", '2020-08-31')) {
+    summer();
+  }
+
+  // End of 4 Seasons ----- To be implemented in year 2021
+
+  else if (moment().isSame("2021-02-01", 'month')) {
+    // Valentine's Day
+    hearts();
+  }
+  else if (moment().isSame("2021-09-01", 'month')) {
+    // Saint Patrick's Day
+    patty();
+  }
+  // else if (moment().isSame("2020-09-01")) {
+  //   fall();
+  // }
+  // else if (moment().isSame("2020-09-01")) {
+  //   fall();
+  // }
+  // else if (moment().isSame("2020-09-01")) {
+  //   fall();
+  // }
+  // else {
+  //   winter();
+  // }
+}
+
+
+// spring();
 // winter();
 // fall();
+time();
+// summer();
 
 
 
